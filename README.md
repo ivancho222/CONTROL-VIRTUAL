@@ -20,3 +20,40 @@ Automatización y análisis: Ofrece herramientas para la parametrización, optim
 * Compatibilidad con Simulink: Se integra completamente con Simulink, lo que facilita la incorporación de controladores y la simulación de sistemas completos.
 
 Gracias a estas características, Simscape Multibody se posiciona como una herramienta fundamental para ingenieros y diseñadores que buscan desarrollar y probar sistemas mecánicos de manera eficiente y precisa.
+
+## 1 CONFIGURACION DEL SOLVER
+
+![Image](https://github.com/user-attachments/assets/02e3e45a-f5fa-4a09-83b0-9a6cd5cc355e)
+
+Figura 1. Configuracion solver
+
+Dentro de la configuración del solver en Simscape, se debe seleccionar la opción "Solver". Posteriormente, en la barra desplegable, se elige la opción "Auto (Automatic Solver Selection)".
+
+* La opción "Auto (Automatic Solver Selection)" permite que Simscape seleccione automáticamente el solver más adecuado para la simulación, en función de las características del modelo. Esto ayuda a optimizar la precisión y eficiencia del cálculo numérico sin necesidad de que el usuario configure manualmente el tipo de solver, facilitando así la simulación de sistemas físicos complejos.
+
+
+para dar inicio al archico multivody es necesiario usar la funcion >> smnew
+
+![Image](https://github.com/user-attachments/assets/60be9cd9-3a40-4bb6-b052-2b6fc5b9d981)
+
+Figura 2. Apertura de la pestaña de simscape
+
+## 2 BLOQUES DE CONFIGURACION
+
+**Primer bloque:** Configura las ecuaciones y su respectiva sintonización, siempre debe usarse en los modelos Simscape.
+
+**Segundo bloque:** Configura el “mundo” a partir de la definición de los ejes de coordenadas.
+
+**Tercer bloque:** Configura el marco de referencia de leyes físicas (gravedad).
+
+![Image](https://github.com/user-attachments/assets/3b75f694-9303-4527-92e2-d03b98bbcf2a)
+
+Figura 3. Funcionalidad de los bloques.
+
+### Configuracion de cada bloque
+
+Para  configurar cada bloque es necesario dar doble click sobre cada uno de ellos y llenar los espacios en la simulacion con los datos que se observan en la figura 4.
+
+![Image](https://github.com/user-attachments/assets/c1d6eea0-44c7-4a9e-91e7-94b715e95eb2)
+
+Figura 4. Configuracion de los bloques.
