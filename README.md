@@ -57,3 +57,15 @@ Para  configurar cada bloque es necesario dar doble click sobre cada uno de ello
 ![Image](https://github.com/user-attachments/assets/c1d6eea0-44c7-4a9e-91e7-94b715e95eb2)
 
 Figura 4. Configuracion de los bloques.
+
+* World Frame
+Define el marco de referencia global para todos los objetos dentro de la simulación.
+
+* Mechanism Configuration
+Configura las propiedades generales del mecanismo, incluyendo la gravedad y la resolución numérica.
+
+* Brick Solid
+Representa un cuerpo rígido con forma de bloque dentro de la simulación.
+
+* Rigid Transform
+Establece una transformación rígida entre dos elementos, permitiendo su posicionamiento relativo.
