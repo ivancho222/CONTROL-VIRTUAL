@@ -69,3 +69,21 @@ Representa un cuerpo rígido con forma de bloque dentro de la simulación.
 
 * Rigid Transform
 Establece una transformación rígida entre dos elementos, permitiendo su posicionamiento relativo.
+
+## CONCLUSIONES
+
+* Simscape Multibody es una herramienta poderosa y versátil dentro del entorno MATLAB, que permite modelar, analizar y optimizar sistemas mecánicos tridimensionales mediante cuerpos rígidos, articulaciones y fuerzas, facilitando el diseño de mecanismos complejos.
+
+* La integración con otros dominios físicos (hidráulicos, eléctricos y neumáticos) permite la creación de modelos más realistas y completos, mejorando la precisión de las simulaciones.
+
+* Su capacidad de visualización 3D y análisis avanzado facilita la interpretación del comportamiento dinámico de los sistemas, permitiendo una validación más intuitiva y detallada antes de la implementación física.
+
+* La configuración automática del solver mediante la opción Auto (Automatic Solver Selection) optimiza la precisión y eficiencia de los cálculos numéricos, eliminando la necesidad de ajustes manuales complejos.
+
+* El uso de bloques de configuración en Simscape Multibody permite establecer de manera estructurada los parámetros clave de la simulación, como el marco de referencia, las ecuaciones del sistema y las propiedades físicas del mecanismo.
+
+* La compatibilidad con Simulink facilita la integración de sistemas de control en los modelos mecánicos, lo que permite realizar simulaciones más completas e interactivas.
+
+* El comando smnew simplifica la creación de nuevos modelos al generar automáticamente un entorno de trabajo preconfigurado para la simulación de sistemas multicuerpo.
+
+En general, Simscape Multibody es una herramienta fundamental para ingenieros y diseñadores que buscan realizar pruebas virtuales, optimizar el rendimiento de los mecanismos y reducir costos en el desarrollo de sistemas mecánicos avanzados.
